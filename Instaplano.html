@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de Gerenciamento de Instagram</title>
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f4f4f9, #eaf2f1);
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #4CAF50;
+            color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Estilo dos planos */
+        .planos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .plano {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .plano:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .plano h3 {
+            font-size: 1.8em;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .plano p {
+            font-size: 1em;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .preco {
+            font-size: 1.5em;
+            color: #333;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .btn a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn a:hover {
+            background-color: #45a049;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .plano {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escolha o Plano Ideal</h1>
+        <p>Gerencie seu Instagram e faça sua horta orgânica crescer com nossos planos personalizados.</p>
+    </header>
+
+    <main class="container">
+        <section class="planos">
+            <!-- Plano Básico -->
+            <div class="plano">
+                <h3>Plano Básico</h3>
+                <p>✔ Criação de 2 posts por semana</p>
+                <p>✔ 1 story por dia</p>
+                <p>✔ Edição de 1 vídeo por mês</p>
+                <p>✔ Gerenciamento de comentários e mensagens</p>
+                <p>✔ Análise básica de métricas</p>
+                <p class="preco">R$ 400 - 600</p>
+                <div class="btn">
+                    <a href="https://wa.me/5537998055226?text=Olá!%20Gostaria%20de%20contratar%20o%20Plano%20Básico.">Contratar Agora</a>
+                </div>
+            </div>
+            <!-- Plano Intermediário -->
+            <div class="plano">
+                <h3>Plano Intermediário</h3>
+                <p>✔ Criação de 4 posts por semana</p>
+                <p>✔ 2 stories por dia</p>
+                <p>✔ Edição de 1 vídeo por mês</p>
+                <p>✔ Criação de reels</p>
+                <p>✔ Gerenciamento de comentários e mensagens</p>
+                <p>✔ Análise detalhada de métricas</p>
+                <p class="preco">R$ 600 - 900</p>
+                <div class="btn">
+                    <a href="https://wa.me/5537998055226?text=Olá!%20Gostaria%20de%20contratar%20o%20Plano%20Intermediário.">Contratar Agora</a>
+                </div>
+            </div>
+            <!-- Plano Completo -->
+            <div class="plano">
+                <h3>Plano Completo</h3>
+                <p>✔ Criação de conteúdo diário</p>
+                <p>✔ Edição de vídeos e reels</p>
+                <p>✔ Gerenciamento de comentários e mensagens</p>
+                <p>✔ Análise detalhada de métricas</p>
+                <p>✔ Criação de calendário editorial</p>
+                <p>✔ Campanhas pagas no Instagram</p>
+                <p>✔ Relatórios mensais de desempenho</p>
+                <p class="preco">R$ 900 - 1500</p>
+                <div class="btn">
+                    <a href="https://wa.me/5537998055226?text=Olá!%20Gostaria%20de%20contratar%20o%20Plano%20Completo.">Contratar Agora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Gerenciamento de Instagram para Hortas Orgânicas</p>
+    </footer>
+</body>
+</html>
